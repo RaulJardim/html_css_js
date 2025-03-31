@@ -22,10 +22,12 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    margin-bottom: 30px;
     border-bottom: var(--border);
+    background-color: var(--bg-color)
 }
 section{
-    margin: 0 auto;
+    margin: auto;
     max-width: 1200px;
 }
 .header-info{
@@ -55,3 +57,36 @@ section{
     color: #a0853c;
     border-bottom: 0.1rem solid #a0853c;
 }
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20rem;
+}
+#image-1{
+    height: 25rem;
+}
+.content-text > p{
+    font-size: 3rem;
+    text-align: justify;
+    color: #ffffff;
+}
+.content-text > h1{
+    font-size: 4rem;
+    text-align: center;
+    color: var(--golden-color);
+    font-weight: bolder;
+}
+.content-text > p > strong{
+    font-size: 1em;
+    color: var(--golden-color);
+}
+#image-2{
+    height: 20rem;
+}
+#text2 > p{
+    font-size: 3rem;
+    text-align: justify;
+}
+
