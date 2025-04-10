@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 94vw;
+    height: 100vh;
+    background-color: black;
+}
+img{
+    margin: auto;
+    width: 94vw;
+}
+a{
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    
+}
